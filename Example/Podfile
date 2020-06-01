@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SmartUtils_Example' do
+  pod 'SmartUtils', :path => '../'
+
+  target 'SmartUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
