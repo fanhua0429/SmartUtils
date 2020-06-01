@@ -1,0 +1,1 @@
+../../../../../SmartUtils/Classes/SmartUtils/Foundation/UASwitcher/UASwitcher.h

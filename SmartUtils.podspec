@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #尝试引入第三方依赖库
+  s.dependency 'Masonry', '~> 1.1.0' ##自动布局
+  s.dependency 'AFNetworking', '~> 3.2.1'  ##网络请求
 end

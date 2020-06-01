@@ -1,0 +1,6 @@
+framework module Pods_SmartUtils_Example {
+  umbrella header "Pods-SmartUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
