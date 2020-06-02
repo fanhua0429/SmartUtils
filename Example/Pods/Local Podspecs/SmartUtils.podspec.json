@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SmartUtils/Classes/**/*",
+  "source_files": "SmartUtils/Classes/**/*.{h,m}",
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
@@ -26,5 +26,18 @@
     "AFNetworking": [
       "~> 3.2.1"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Default",
+      "source_files": "BITCocoaLumberjack/Classes/*.{h,m}",
+      "public_header_files": "BITCocoaLumberjack/CocoaLumberjackNoLogsMacro.h",
+      "subspecs": [
+        {
+          "name": "Extensions",
+          "source_files": "BITCocoaLumberjack/Classes/Extensions/*.{h,m}"
+        }
+      ]
+    }
+  ]
 }

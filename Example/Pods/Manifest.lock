@@ -18,6 +18,14 @@ PODS:
   - SmartUtils (0.1.0):
     - AFNetworking (~> 3.2.1)
     - Masonry (~> 1.1.0)
+    - SmartUtils/Default (= 0.1.0)
+  - SmartUtils/Default (0.1.0):
+    - AFNetworking (~> 3.2.1)
+    - Masonry (~> 1.1.0)
+    - SmartUtils/Default/Extensions (= 0.1.0)
+  - SmartUtils/Default/Extensions (0.1.0):
+    - AFNetworking (~> 3.2.1)
+    - Masonry (~> 1.1.0)
 
 DEPENDENCIES:
   - SmartUtils (from `../`)
@@ -34,7 +42,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SmartUtils: a6d958691e6730d5f5d0f9d5a29670b07dadd725
+  SmartUtils: 05a1c014e38a63fa9e76f2a447c71673f58ad652
 
 PODFILE CHECKSUM: 5913b85a541d343ff7717797129930839dd82237
 
